@@ -19,6 +19,12 @@
     </source>
     <php>
         <env name="APP_ENV" value="testing"/>
+        <env name="APP_KEY" value="base64:daFWdL3QQJPPGuP4Me+25/ig4xIvsYzM+9cCd/YlOzM="/>
+        <env name="AUTH_URL" value="http://auth.test"/>
+        <env name="CATALOG_URL" value="http://catalog.test"/>
+        <env name="ORDERS_URL" value="http://orders.test"/>
+        <env name="ANALYTICS_URL" value="http://analytics.test"/>
+        <env name="FILESYSTEM_DISK" value="local"/>
         <env name="APP_MAINTENANCE_DRIVER" value="file"/>
         <env name="BCRYPT_ROUNDS" value="4"/>
         <env name="BROADCAST_CONNECTION" value="null"/>
